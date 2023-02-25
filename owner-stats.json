@@ -1,0 +1,91 @@
+[
+  {
+    "ownerInfo": {
+      "ownerName": "Shawn Ballay",
+      "seasons": null, 
+      "wins": null, 
+      "losses": null, 
+      "ties": null, 
+      "playoffApps": null, 
+      "playoffRate": null, 
+      "winPct": null, 
+      "avgPointsFor": null, 
+      "avgPointsAgainst": null, 
+      "avgFinish": null,
+      "avgKOTHfinishingPlace": null,
+      "lastPlaces": null, 
+      "luckyWins": null, 
+      "unluckyLosses": null, 
+      "closeWins": null, 
+      "closeLosses": null 
+    },
+    "2014": {
+      "participated": true,
+      "wins": null, 
+      "losses": null, 
+      "ties": null,
+
+      "finishPlace": "manual",
+      "kothFinishingPlace": "manual",
+      "finishedLast": "manual t/f",
+      "rosterMoves": "manual",
+      "pointsLeftOnBench": "manual",
+      "weeksTopFiveOut": "manual",
+
+      "pointsFor": null,
+      "pointsAgainst": null, 
+      "avgPointsFor": null, 
+      "avgPointsPointsAgainst": null, 
+      "weeksTopScorer": null, 
+      "weeksLowScorer": null, 
+      "avgPointsForPlayoffs": null, 
+      "avgPointsAgainstPlayoffs": null, 
+      "regSznCloseGameWins": null, 
+      "regSznCloseGameLosses": null, 
+      "playoffCloseGameWins": null, 
+      "playoffCloseGameLosses": null, 
+      "madePlayoffs": "manual t/f",
+      "playoffBye": "manual t/f", 
+      "playoffWins": null, 
+      "playoffLosses": null, 
+      "madeFinals": "manual t/f",
+      "unluckyLosses": null, 
+      "luckyWins": null, 
+
+      "regularSeason": {
+        "weekOne": {
+          "pointsFor": 123.14,
+          "pointsAgainst": 129.39,
+          "opponent": "Steve Smith"
+        },
+        "weekTwo": {
+          "pointsFor": 111.41,
+          "pointsAgainst": 164.81,
+          "opponent": "Dominic Nocito"
+        },
+        "weekThree": {
+          "pointsFor": 137.14,
+          "pointsAgainst": 101.2,
+          "opponent": "Donnie Irons"
+        }
+      },
+
+      "playoffs": {
+        "participated": "manual t/f",
+        "roundOne": {
+          "participated": "manual t/f",
+          "pointsFor": 129.32,
+          "pointsAgainst": 139.39,
+          "opponent": "Don Irons"
+        },
+        "roundTwo": {
+          "participated": "manual t/f",
+          "pointsFor": null,
+          "pointsAgainst": null,
+          "opponent": null
+        }
+      },
+      "strikes": 0
+    }
+  }
+]
