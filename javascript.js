@@ -1,50 +1,14 @@
-fetch("/owner-stats.json")
-  .then((response) => response.json())
-  .then((data) => {
-    const ownerData = data.map((item) => {
-      return {
-        ownerInfo: item.ownerInfo,
-        2014: item[2014] // You can already access regularSeason and playoffs from here
-
-        // ownerName: item.ownerInfo.ownerName,
-        // seasons: item.ownerInfo.seasons,
-        // wins: item.ownerInfo.wins,
-        // losses: item.ownerInfo.losses,
-        // ties: item.ownerInfo.losses,
-
-        // get pointsFor2014() {
-        //   totalPoints = 0
-        //   let keys = Object.keys(item[2014].regularSeason)
-        //   keys.forEach((key) => {
-        //     totalPoints += this[2014].regularSeason[key].pointsFor
-        //   })
-        //   return totalPoints
-        // },
-        // get winPct() {
-        //   return parseFloat(
-        //     ((this.wins / (this.losses + this.wins + this.ties)) * 100).toFixed(
-        //       1
-        //     )
-        //   )
-        // }
-      }
-    })
-    console.log(ownerData)
-  })
-
-// FUNCTIONS *******************************************************************
-
-// function calcYearlyTotalPointsFor(owner, year) {
-//   currentOwner = ownerList.find((item) => item.ownerInfo.ownerName === owner)
-//   let totalPointsFor = 0
-
-//   let keys = Object.keys(currentOwner[year].regularSeason)
-//   keys.forEach((key, index) => {
-//     totalPointsFor += currentOwner[year].regularSeason[key].pointsFor
-//   })
-
-//   return totalPointsFor.toFixed(2)
-// }
-// console.log(calcYearlyTotalPointsFor("Shawn Ballay", 2014))
-
-// FUNCTIONS *******************************************************************
+const NOTE_DETAILS = [
+  { note: "C", key: "Z", frequency: 261.626 },
+  { note: "Db", key: "S", frequency: 277.183 },
+  { note: "D", key: "X", frequency: 293.665 },
+  { note: "Eb", key: "D", frequency: 311.127 },
+  { note: "E", key: "C", frequency: 329.628 },
+  { note: "F", key: "V", frequency: 349.228 },
+  { note: "Gb", key: "G", frequency: 369.994 },
+  { note: "G", key: "B", frequency: 391.995 },
+  { note: "Ab", key: "H", frequency: 415.305 },
+  { note: "A", key: "N", frequency: 440 },
+  { note: "Bb", key: "J", frequency: 466.164 },
+  { note: "B", key: "M", frequency: 493.883 }
+]
