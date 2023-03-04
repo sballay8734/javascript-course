@@ -50,3 +50,16 @@ body {
 .white-key:not(:last-child) {
   border-right: 1px solid black;
 }
+
+.black-key,
+.white-key {
+  cursor: pointer;
+}
+
+.black-key.active {
+  background-color: rgb(38, 38, 38);
+}
+
+.white-key.active {
+  background-color: rgb(221, 221, 221);
+}
